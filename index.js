@@ -35,9 +35,9 @@ function increaseRankBy(n){
     for(let rank of ranks){
         let rows = rank.children;
         for(let i = 0; i < rows.length; i++){
-            console.log(`before: ${rows[i].innerHTML}`)
+            // console.log(`before: ${rows[i].innerHTML}`)
             rows[i].innerHTML = Number.parseInt(rows[i].innerHTML) + n;
-                        console.log(`after: ${rows[i].innerHTML}`)
+                        // console.log(`after: ${rows[i].innerHTML}`)
              // console.log(rows[i]);
         }
     }
